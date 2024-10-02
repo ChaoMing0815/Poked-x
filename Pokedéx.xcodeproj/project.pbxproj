@@ -14,6 +14,9 @@
 		3AACE02E2CACE269003960F5 /* Pokede_xTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE02D2CACE269003960F5 /* Pokede_xTests.swift */; };
 		3AACE0382CACE269003960F5 /* Pokede_xUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0372CACE269003960F5 /* Pokede_xUITests.swift */; };
 		3AACE03A2CACE269003960F5 /* Pokede_xUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0392CACE269003960F5 /* Pokede_xUITestsLaunchTests.swift */; };
+		3AACE0512CACF518003960F5 /* UIView+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0502CACF518003960F5 /* UIView+SnapKit.swift */; };
+		3AACE0532CACF5E5003960F5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3AACE0522CACF5E5003960F5 /* SnapKit */; };
+		3AACE0552CACF9BC003960F5 /* UIImage+DomainColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0542CACF9BC003960F5 /* UIImage+DomainColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,8 @@
 		3AACE0332CACE269003960F5 /* PokedéxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PokedéxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AACE0372CACE269003960F5 /* Pokede_xUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokede_xUITests.swift; sourceTree = "<group>"; };
 		3AACE0392CACE269003960F5 /* Pokede_xUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokede_xUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AACE0502CACF518003960F5 /* UIView+SnapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SnapKit.swift"; sourceTree = "<group>"; };
+		3AACE0542CACF9BC003960F5 /* UIImage+DomainColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+DomainColorExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AACE0532CACF5E5003960F5 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +106,8 @@
 				3AACE01F2CACE269003960F5 /* Assets.xcassets */,
 				3AACE0212CACE269003960F5 /* LaunchScreen.storyboard */,
 				3AACE0242CACE269003960F5 /* Info.plist */,
+				3AACE0502CACF518003960F5 /* UIView+SnapKit.swift */,
+				3AACE0542CACF9BC003960F5 /* UIImage+DomainColorExtension.swift */,
 			);
 			path = "Pokedéx";
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 			);
 			name = "Pokedéx";
 			packageProductDependencies = (
+				3AACE0522CACF5E5003960F5 /* SnapKit */,
 			);
 			productName = "Pokedéx";
 			productReference = 3AACE0132CACE265003960F5 /* Pokedéx.app */;
@@ -257,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AACE01B2CACE265003960F5 /* ViewController.swift in Sources */,
+				3AACE0552CACF9BC003960F5 /* UIImage+DomainColorExtension.swift in Sources */,
+				3AACE0512CACF518003960F5 /* UIView+SnapKit.swift in Sources */,
 				3AACE0172CACE265003960F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,6 +616,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3AACE0522CACF5E5003960F5 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AACE04D2CACF223003960F5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3AACE00B2CACE265003960F5 /* Project object */;
 }
