@@ -49,7 +49,7 @@ extension RequestType {
 
 // MARK: - Internal Methods
 extension RequestType {
-    func getRequest() -> URLRequest {
+    func getURLRequest() -> URLRequest {
         let fullURL = getFullURL()
         var request = URLRequest(url: fullURL)
         request.httpMethod = httpMethod.rawValue
