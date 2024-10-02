@@ -137,6 +137,8 @@
 			dependencies = (
 			);
 			name = "Pokedéx";
+			packageProductDependencies = (
+			);
 			productName = "Pokedéx";
 			productReference = 3AACE0132CACE265003960F5 /* Pokedéx.app */;
 			productType = "com.apple.product-type.application";
@@ -209,6 +211,9 @@
 				Base,
 			);
 			mainGroup = 3AACE00A2CACE265003960F5;
+			packageReferences = (
+				3AACE04D2CACF223003960F5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 3AACE0142CACE265003960F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -589,6 +594,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3AACE04D2CACF223003960F5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 3AACE00B2CACE265003960F5 /* Project object */;
 }
