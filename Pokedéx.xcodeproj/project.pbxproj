@@ -19,6 +19,7 @@
 		3AACE0552CACF9BC003960F5 /* UIImage+DomainColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0542CACF9BC003960F5 /* UIImage+DomainColorExtension.swift */; };
 		3AACE05C2CACFD77003960F5 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE05B2CACFD77003960F5 /* RequestType.swift */; };
 		3AACE05E2CADAAAF003960F5 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE05D2CADAAAF003960F5 /* HTTPClient.swift */; };
+		3AACE0612CAE1A03003960F5 /* AllPokemonListHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0602CAE1A03003960F5 /* AllPokemonListHTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		3AACE0542CACF9BC003960F5 /* UIImage+DomainColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+DomainColorExtension.swift"; sourceTree = "<group>"; };
 		3AACE05B2CACFD77003960F5 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		3AACE05D2CADAAAF003960F5 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		3AACE0602CAE1A03003960F5 /* AllPokemonListHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPokemonListHTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				3AACE0542CACF9BC003960F5 /* UIImage+DomainColorExtension.swift */,
 				3AACE0562CACFB12003960F5 /* Utils */,
 				3AACE05F2CADAD8C003960F5 /* NetworkModule */,
+				3AACE0602CAE1A03003960F5 /* AllPokemonListHTTPClient.swift */,
 			);
 			path = "Pokedéx";
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AACE0612CAE1A03003960F5 /* AllPokemonListHTTPClient.swift in Sources */,
 				3AACE01B2CACE265003960F5 /* ViewController.swift in Sources */,
 				3AACE0552CACF9BC003960F5 /* UIImage+DomainColorExtension.swift in Sources */,
 				3AACE05E2CADAAAF003960F5 /* HTTPClient.swift in Sources */,
