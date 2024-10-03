@@ -22,6 +22,7 @@
 		3AACE0612CAE1A03003960F5 /* AllPokemonListHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0602CAE1A03003960F5 /* AllPokemonListHTTPClient.swift */; };
 		3AACE0632CAE3A78003960F5 /* AllPokemonListDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0622CAE3A78003960F5 /* AllPokemonListDTO.swift */; };
 		3AACE0692CAE3DBF003960F5 /* AllPokemonListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0682CAE3DBF003960F5 /* AllPokemonListService.swift */; };
+		3AACE06B2CAE758B003960F5 /* PokemonInfoHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE06A2CAE758B003960F5 /* PokemonInfoHTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		3AACE0602CAE1A03003960F5 /* AllPokemonListHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPokemonListHTTPClient.swift; sourceTree = "<group>"; };
 		3AACE0622CAE3A78003960F5 /* AllPokemonListDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPokemonListDTO.swift; sourceTree = "<group>"; };
 		3AACE0682CAE3DBF003960F5 /* AllPokemonListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPokemonListService.swift; sourceTree = "<group>"; };
+		3AACE06A2CAE758B003960F5 /* PokemonInfoHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoHTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,9 @@
 				3AACE0242CACE269003960F5 /* Info.plist */,
 				3AACE0502CACF518003960F5 /* UIView+SnapKit.swift */,
 				3AACE0542CACF9BC003960F5 /* UIImage+DomainColorExtension.swift */,
+				3AACE0642CAE3BE0003960F5 /* NetworkLayer */,
+				3AACE0672CAE3C1F003960F5 /* AllPokemonListPage */,
+				18B6DC922CAD005E00D1136A /* UseCase */,
 				3AACE0562CACFB12003960F5 /* Utils */,
 				3AACE05F2CADAD8C003960F5 /* NetworkModule */,
 			);
@@ -180,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				3AACE0602CAE1A03003960F5 /* AllPokemonListHTTPClient.swift */,
+				3AACE06A2CAE758B003960F5 /* PokemonInfoHTTPClient.swift */,
 			);
 			path = NetworkLayer;
 			sourceTree = "<group>";
