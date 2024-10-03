@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
 		18114B6D2CAFC8580075C7A6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18114B6C2CAFC8580075C7A6 /* SnapKit */; };
 		18B6DC982CAD034200D1136A /* PokemonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6DC972CAD034200D1136A /* PokemonInfo.swift */; };
 		3AACE0172CACE265003960F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0162CACE265003960F5 /* AppDelegate.swift */; };
@@ -155,6 +156,9 @@
 				3AACE0642CAE3BE0003960F5 /* NetworkLayer */,
 				3AACE0672CAE3C1F003960F5 /* AllPokemonListPage */,
 				18B6DC922CAD005E00D1136A /* UseCase */,
+				3AACE0672CAE3C1F003960F5 /* AllPokemonListPage */,
+				18B6DC922CAD005E00D1136A /* UseCase */,
+				3AACE0562CACFB12003960F5 /* Utils */,
 				3AACE05F2CADAD8C003960F5 /* NetworkModule */,
 			);
 			path = "Pokedéx";
