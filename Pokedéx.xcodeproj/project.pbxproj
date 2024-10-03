@@ -109,6 +109,7 @@
 		3AACE0152CACE265003960F5 /* Pokedéx */ = {
 			isa = PBXGroup;
 			children = (
+				3AACE0672CAE3C1F003960F5 /* AllPokemonListPage */,
 				3AACE0162CACE265003960F5 /* AppDelegate.swift */,
 				3AACE01A2CACE265003960F5 /* ViewController.swift */,
 				3AACE01F2CACE269003960F5 /* Assets.xcassets */,
@@ -118,8 +119,6 @@
 				3AACE0542CACF9BC003960F5 /* UIImage+DomainColorExtension.swift */,
 				3AACE0562CACFB12003960F5 /* Utils */,
 				3AACE05F2CADAD8C003960F5 /* NetworkModule */,
-				3AACE0602CAE1A03003960F5 /* AllPokemonListHTTPClient.swift */,
-				3AACE0622CAE3A78003960F5 /* AllPokemonListDTO.swift */,
 			);
 			path = "Pokedéx";
 			sourceTree = "<group>";
@@ -173,6 +172,31 @@
 				3AACE05B2CACFD77003960F5 /* RequestType.swift */,
 			);
 			path = NetworkModule;
+			sourceTree = "<group>";
+		};
+		3AACE0642CAE3BE0003960F5 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				3AACE0602CAE1A03003960F5 /* AllPokemonListHTTPClient.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		3AACE0652CAE3BFB003960F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AACE0622CAE3A78003960F5 /* AllPokemonListDTO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AACE0672CAE3C1F003960F5 /* AllPokemonListPage */ = {
+			isa = PBXGroup;
+			children = (
+				3AACE0652CAE3BFB003960F5 /* Model */,
+				3AACE0642CAE3BE0003960F5 /* NetworkLayer */,
+			);
+			path = AllPokemonListPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
