@@ -21,6 +21,7 @@
 		3AACE05E2CADAAAF003960F5 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE05D2CADAAAF003960F5 /* HTTPClient.swift */; };
 		3AACE0612CAE1A03003960F5 /* AllPokemonListHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0602CAE1A03003960F5 /* AllPokemonListHTTPClient.swift */; };
 		3AACE0632CAE3A78003960F5 /* AllPokemonListDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0622CAE3A78003960F5 /* AllPokemonListDTO.swift */; };
+		3AACE0692CAE3DBF003960F5 /* AllPokemonListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0682CAE3DBF003960F5 /* AllPokemonListService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		3AACE05D2CADAAAF003960F5 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		3AACE0602CAE1A03003960F5 /* AllPokemonListHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPokemonListHTTPClient.swift; sourceTree = "<group>"; };
 		3AACE0622CAE3A78003960F5 /* AllPokemonListDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPokemonListDTO.swift; sourceTree = "<group>"; };
+		3AACE0682CAE3DBF003960F5 /* AllPokemonListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPokemonListService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 			children = (
 				3AACE0652CAE3BFB003960F5 /* Model */,
 				3AACE0642CAE3BE0003960F5 /* NetworkLayer */,
+				3AACE0682CAE3DBF003960F5 /* AllPokemonListService.swift */,
 			);
 			path = AllPokemonListPage;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				3AACE01B2CACE265003960F5 /* ViewController.swift in Sources */,
 				3AACE0552CACF9BC003960F5 /* UIImage+DomainColorExtension.swift in Sources */,
 				3AACE05E2CADAAAF003960F5 /* HTTPClient.swift in Sources */,
+				3AACE0692CAE3DBF003960F5 /* AllPokemonListService.swift in Sources */,
 				3AACE0512CACF518003960F5 /* UIView+SnapKit.swift in Sources */,
 				3AACE0172CACE265003960F5 /* AppDelegate.swift in Sources */,
 				3AACE05C2CACFD77003960F5 /* RequestType.swift in Sources */,
