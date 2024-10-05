@@ -20,7 +20,7 @@ class RequestType {
     let body: Data?
     let headers: [String: String]?
     
-    init(httpMethod: HTTPMethod, domainURL: URL, path: String, queryItem: [URLQueryItem], body: Data? = nil, headers: [String : String]? = nil) {
+    init(httpMethod: HTTPMethod, domainURL: URL, path: String, queryItem: [URLQueryItem] = [], body: Data? = nil, headers: [String : String]? = nil) {
         self.httpMethod = httpMethod
         self.domainURL = domainURL
         self.path = path
