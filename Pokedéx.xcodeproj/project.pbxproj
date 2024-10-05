@@ -19,14 +19,12 @@
 		3AACE0382CACE269003960F5 /* Pokede_xUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0372CACE269003960F5 /* Pokede_xUITests.swift */; };
 		3AACE03A2CACE269003960F5 /* Pokede_xUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0392CACE269003960F5 /* Pokede_xUITestsLaunchTests.swift */; };
 		3AACE0512CACF518003960F5 /* UIView+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0502CACF518003960F5 /* UIView+SnapKit.swift */; };
-		3AACE0552CACF9BC003960F5 /* UIImage+DomainColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0542CACF9BC003960F5 /* UIImage+DomainColorExtension.swift */; };
 		3AACE05C2CACFD77003960F5 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE05B2CACFD77003960F5 /* RequestType.swift */; };
 		3AACE05E2CADAAAF003960F5 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE05D2CADAAAF003960F5 /* HTTPClient.swift */; };
 		3AACE0632CAE3A78003960F5 /* AllPokemonListDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0622CAE3A78003960F5 /* AllPokemonListDTO.swift */; };
 		3AACE0692CAE3DBF003960F5 /* AllPokemonListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE0682CAE3DBF003960F5 /* AllPokemonListService.swift */; };
 		3AACE06B2CAE758B003960F5 /* PokemonInfoHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE06A2CAE758B003960F5 /* PokemonInfoHTTPClient.swift */; };
 		3AACE06D2CAE7852003960F5 /* PokemonInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE06C2CAE7852003960F5 /* PokemonInfoDTO.swift */; };
-		3AACE0722CB04FCD003960F5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3AACE0712CB04FCD003960F5 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AACE0722CB04FCD003960F5 /* SnapKit in Frameworks */,
 				18114B6D2CAFC8580075C7A6 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +158,7 @@
 				3AACE0542CACF9BC003960F5 /* UIImage+DomainColorExtension.swift */,
 				3AACE0642CAE3BE0003960F5 /* NetworkLayer */,
 				3AACE0672CAE3C1F003960F5 /* AllPokemonListPage */,
+				18B6DC922CAD005E00D1136A /* UseCase */,
 				3AACE0562CACFB12003960F5 /* Utils */,
 				3AACE05F2CADAD8C003960F5 /* NetworkModule */,
 			);
@@ -182,29 +180,6 @@
 				3AACE0392CACE269003960F5 /* Pokede_xUITestsLaunchTests.swift */,
 			);
 			path = "PokedéxUITests";
-			sourceTree = "<group>";
-		};
-		3AACE0562CACFB12003960F5 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				3AACE0582CACFB48003960F5 /* UIImageColorHelper */,
-				3AACE0572CACFB2A003960F5 /* AutoLayoutHelper */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		3AACE0572CACFB2A003960F5 /* AutoLayoutHelper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AutoLayoutHelper;
-			sourceTree = "<group>";
-		};
-		3AACE0582CACFB48003960F5 /* UIImageColorHelper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIImageColorHelper;
 			sourceTree = "<group>";
 		};
 		3AACE05F2CADAD8C003960F5 /* NetworkModule */ = {
@@ -260,7 +235,6 @@
 			);
 			name = "Pokedéx";
 			packageProductDependencies = (
-				3AACE0712CB04FCD003960F5 /* SnapKit */,
 				18114B6C2CAFC8580075C7A6 /* SnapKit */,
 			);
 			productName = "Pokedéx";
@@ -336,7 +310,6 @@
 			);
 			mainGroup = 3AACE00A2CACE265003960F5;
 			packageReferences = (
-				3AACE0702CB04FCD003960F5 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				18114B6B2CAFC8580075C7A6 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 3AACE0142CACE265003960F5 /* Products */;
@@ -387,7 +360,6 @@
 				3AACE0612CAE1A03003960F5 /* AllPokemonListHTTPClient.swift in Sources */,
 				3AACE01B2CACE265003960F5 /* ViewController.swift in Sources */,
 				3AACE06D2CAE7852003960F5 /* PokemonInfoDTO.swift in Sources */,
-				3AACE0552CACF9BC003960F5 /* UIImage+DomainColorExtension.swift in Sources */,
 				18B6DC982CAD034200D1136A /* PokemonInfo.swift in Sources */,
 				3AACE05E2CADAAAF003960F5 /* HTTPClient.swift in Sources */,
 				3AACE0692CAE3DBF003960F5 /* AllPokemonListService.swift in Sources */,
@@ -735,7 +707,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3AACE0702CB04FCD003960F5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 		18114B6B2CAFC8580075C7A6 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -747,9 +718,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3AACE0712CB04FCD003960F5 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3AACE0702CB04FCD003960F5 /* XCRemoteSwiftPackageReference "SnapKit" */;
 		18114B6C2CAFC8580075C7A6 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 18114B6B2CAFC8580075C7A6 /* XCRemoteSwiftPackageReference "SnapKit" */;
