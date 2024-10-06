@@ -124,7 +124,6 @@
 				3AACE0542CACF9BC003960F5 /* UIImage+DomainColorExtension.swift */,
 				3AACE0642CAE3BE0003960F5 /* NetworkLayer */,
 				3AACE0672CAE3C1F003960F5 /* AllPokemonListPage */,
-				3AACE0562CACFB12003960F5 /* Utils */,
 				3AACE05F2CADAD8C003960F5 /* NetworkModule */,
 			);
 			path = "Pokedéx";
@@ -145,29 +144,6 @@
 				3AACE0392CACE269003960F5 /* Pokede_xUITestsLaunchTests.swift */,
 			);
 			path = "PokedéxUITests";
-			sourceTree = "<group>";
-		};
-		3AACE0562CACFB12003960F5 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				3AACE0582CACFB48003960F5 /* UIImageColorHelper */,
-				3AACE0572CACFB2A003960F5 /* AutoLayoutHelper */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		3AACE0572CACFB2A003960F5 /* AutoLayoutHelper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AutoLayoutHelper;
-			sourceTree = "<group>";
-		};
-		3AACE0582CACFB48003960F5 /* UIImageColorHelper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIImageColorHelper;
 			sourceTree = "<group>";
 		};
 		3AACE05F2CADAD8C003960F5 /* NetworkModule */ = {
