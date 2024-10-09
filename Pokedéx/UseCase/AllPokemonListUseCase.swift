@@ -35,9 +35,9 @@ class AllPokemonListUseCase: AllPokemonListUseCaseProtocol {
                 
             case .failure(let error):
                 switch error {
-                case NetworkError:
+                case .NetworkError:
                     completion(.failure(.networkError))
-                case JSONParsingError:
+                case .JSONParsingError:
                     completion(.failure(.parsingError))
                 }
             }
